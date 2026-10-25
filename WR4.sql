@@ -12,6 +12,9 @@
 --INSERT INTO AUTHORS VALUES (4, 'Astrid', 'Lindgren');
 --INSERT INTO AUTHORS VALUES (5, 'Agatha', 'Christie');
 
+-- Comment: Here I used URL:https://sqlite.org/foreignkeys.html to see 
+-- how foreign keys are made in sqlite.
+
 --CREATE TABLE BOOKS(book_id INTEGER NOT NULL PRIMARY KEY, title TEXT NOT NULL, 
 --publication_year INTEGER NOT NULL , author_id INTEGER NOT NULL, 
 --FOREIGN KEY (author_id) REFERENCES AUTHORS(author_id));
