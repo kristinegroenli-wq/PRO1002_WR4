@@ -79,7 +79,10 @@
 --SELECT * FROM QUOTES;
 
 -- When I wrote my first query I saw that have mixed the author and book id's in the QUOTES table. 
---Going to try to update the values.
+--Going to try to update the values. In the update value example 
+-- in qybele (Module 6) only one value was updated. And I needed to update two
+-- values in the same table row. So I did a google search and found a page
+-- that shows how to update multiple values: https://www.geeksforgeeks.org/sqlite/sqlite-update-statement/
 
 --UPDATE QUOTES SET author_id = 1, book_id = 2 WHERE quote_id = 3;
 --UPDATE QUOTES SET author_id = 1, book_id = 2 WHERE quote_id = 4;
